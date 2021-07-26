@@ -1,0 +1,21 @@
+model:
+  path:
+  type: 1
+dataloader:
+  json_path: "/content/WriterIdentification/filtered_common_words_paths_hist.json"
+  image_width: 216
+  image_height: 64
+  # batch_size: 64
+  batch_size: 32
+  num_workers: 4
+  istrain: True
+  mode_ratio: 0.8
+runtime:
+  # num_epochs: 60
+  num_epochs: 20
+  model_save_dir: "/content/drive/MyDrive/Final Project/Models/WriterIdentification/israeli_target_siamese_aug3"
+  gpu: 0
+  save_epoch: 10
+  # lr: 0.001
+  lr: 0.0001
+  print_batch: 2

@@ -1,0 +1,21 @@
+model:
+  path:
+  is_siamese: False
+dataloader:
+  target_wid: "/content/eylonhand"
+  gt_path:
+  json_path: "/content/WriterIdentification/filtered_paths_hist.json"
+  image_width: 216
+  image_height: 64
+  batch_size: 64
+  num_workers: 4
+  istrain: True
+  mode_ratio: 0.8
+  iam_classes: 296
+runtime:
+  num_epochs: 60
+  model_save_dir: "/content/drive/MyDrive/Final Project/Models/WriterIdentification/israeli_target"
+  gpu: 0
+  save_epoch: 10
+  lr: 0.001
+  print_batch: 2

@@ -1,0 +1,24 @@
+model:
+  path:
+  type:
+  is_siamese: False
+dataloader:
+  target_wid: -1
+  iam_words_dir:
+  target_words_dir:
+  gt_path:
+  json_path: "/content/WriterIdentification/filtered_paths_hist.json"
+  image_width: 216
+  image_height: 64
+  batch_size: 64
+  num_workers: 8
+  istrain: True
+  mode_ratio: 0.8
+  iam_classes: 296
+runtime:
+  num_epochs: 60
+  model_save_dir: "/content/drive/MyDrive/Final Project/Models/WriterIdentification/iam_target/"
+  gpu: 0
+  save_epoch: 5
+  lr: 0.01
+  print_batch: 5
