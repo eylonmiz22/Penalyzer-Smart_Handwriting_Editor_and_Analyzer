@@ -6,7 +6,7 @@
   <img width=640 height=300 src="penalyzer1.jpg">
 </p>
 
-Penalyzer is a deep learning-based handwriting text editor, generator, and analyzer. By this tool, the following functionalities are available on handwritten documents:
+Penalyzer is a deep learning-based handwriting text editor, generator, and analyzer. With this tool, the following functionalities are available on handwritten documents:
 
 * Addition/Deletion of handwriting within a given document.
 
